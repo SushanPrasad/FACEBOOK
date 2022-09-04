@@ -1,0 +1,39 @@
+.sidebar{
+    padding: 25px 10px;
+    flex: 0.33;
+}
+
+.signout{
+
+    border: 1px solid gray !important;
+    color: #1878F1  !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 40px !important;
+    margin-top: 10px !important;
+    background-color: white !important;
+    text-decoration: none;
+    
+    
+}
+
+.signout:hover {
+    color:black;
+    text-decoration: none;
+}
+
+.buttonn{
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.sign{
+font-size: 14px;
+
+
+}
+
+.sign:hover{
+    color: black;
+}

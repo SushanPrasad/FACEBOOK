@@ -1,0 +1,27 @@
+.row{
+    margin-top: 8px;
+    color: #1878F1;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+
+ .titles {
+     margin-left: 20px;
+     font-weight: 600;
+     color: black;
+     font-size: 14px;
+
+ }
+
+
+ .row:hover{
+     background-color: lightgray;
+     border-radius: 10px;
+     margin-left: 7px;
+ }

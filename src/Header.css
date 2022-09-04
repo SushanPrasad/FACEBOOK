@@ -1,0 +1,122 @@
+.head {
+    padding:  15px 20px;
+    display: flex;
+   justify-content: space-between;
+   position: sticky;
+   background-color: rgb(255, 255, 255);
+   z-index: 100;  
+   top: 0;
+   box-shadow: 0px 6px 10px -9px rgb(98, 125, 245);
+   height: 40px;
+
+
+}
+
+.left {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin-left: 10px;
+    background-color: rgb(240,242,245);
+    border-radius: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    width: 220px;
+}
+
+.left > img {
+    height: 40px;
+}
+
+.input > input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+
+
+.middle > .MuiSvgIcon-root {
+    color: gray;
+}
+
+
+.middle:hover > .MuiSvgIcon-root {
+    color: #1B74E4 ;
+    border-bottom: 4px solid #1B74E4  ;
+
+}
+
+.name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 5px;
+    cursor: pointer;
+
+}
+
+.right > .MuiSvgIcon-root {
+    color: grey;
+}
+
+.right:hover > .MuiSvgIcon-root {
+    color: #1B74E4 ;
+    border-bottom: 4px solid #1B74E4  ;
+
+}
+
+
+
+
+
+.middle {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    padding: 0px 42px;
+    cursor: pointer;
+}
+
+.middle:hover {
+    background-color:#E4E6EB;
+    border-radius: 12px ;
+     align-items: center;
+     padding: 0 42px;
+      border-bottom: none;
+    } 
+.option_m {
+    display: flex;
+    flex: 1.5;
+    justify-content: center;
+    margin-left: -87px;
+    padding: 0px 193px;
+}
+
+.option_right {
+    display: flex;
+    flex: 0.3;
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+.right {
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+
+
+
+.fbicon{
+    cursor: pointer;
+    height: 39px;
+}
+
+
+  

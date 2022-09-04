@@ -1,0 +1,80 @@
+.MessengerSender {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 9px 9px 24px -7px grey;
+    width: 11%;
+    min-width: 533px;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    position: sticky;
+    margin-top: 10px;
+}
+
+
+.top {
+    display:flex;
+    border-bottom: 1px solid rgb(46, 43, 49);
+    padding: 15px;
+    width: 500px;
+}
+
+
+.top > form {
+    flex: 1;
+    display: flex;
+  
+}
+
+.top > form > input {
+    outline-width:0;
+    border: none;
+    padding:  5px 87px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #E4E6E9;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+
+.top > form > button {
+    display: none;
+}
+
+.input {
+    flex: 1;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    min-width:fit-content;
+    padding: -1px 145px;
+}
+
+.option{
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    color:black ;
+    margin: 5px;
+
+
+
+}
+
+
+.option > h3 {
+    font-size: medium;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.option:hover{
+    background-color: #E4E6E9;
+    border-radius: 20px;
+}
+ 
